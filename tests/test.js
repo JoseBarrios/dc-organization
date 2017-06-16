@@ -11,6 +11,7 @@ let organization = new Organization(model);
 
 const key = {};
 key.name = 'Cognilab';
+key.employeeFullName = 'Jose Barrios';
 
 describe('organization.name', function() {
 	it('should return the name of the organization', function() {
