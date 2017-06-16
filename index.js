@@ -6,8 +6,6 @@ class Organization extends Thing {
     model = model || {};
     super(model);
 
-    console.log(this, model)
-
     this.alumni = model.alumni;
     this.address = model.address;
     this.department = model.department;
