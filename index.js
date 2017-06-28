@@ -19,70 +19,70 @@ class Organization extends Thing {
     this.vatID = model.vatID;
   }
 
-  get alumni(){ return this.model.alumni; }
+  get alumni(){ return this.computed.alumni; }
   set alumni(value){
     if(!value) return;
-    this.model.alumni = value;
+    this.computed.alumni = value;
   }
 
-  get address(){ return this.model.address; }
+  get address(){ return this.computed.address; }
   set address(value){
     if(!value) return;
-    this.model.address = value;
+    this.computed.address = value;
   }
 
-  get department(){ return this.model.department; }
+  get department(){ return this.computed.department; }
   set department(value){
     if(!value) return;
-    this.model.department = value;
+    this.computed.department = value;
   }
 
-  get email(){ return this.model.email; }
+  get email(){ return this.computed.email; }
   set email(value){
     if(!value) return;
-    this.model.email = value;
+    this.computed.email = value;
   }
 
-  get employee(){ return this.model.employee; }
+  get employee(){ return this.computed.employee; }
   set employee(value){
     if(!value) return;
-    this.model.employee = value;
+    this.computed.employee = value;
   }
 
-  get faxNumber(){ return this.model.faxNumber; }
+  get faxNumber(){ return this.computed.faxNumber; }
   set faxNumber(value){
     if(!value) return;
-    this.model.faxNumber = value;
+    this.computed.faxNumber = value;
   }
 
-  get legalName(){ return this.model.legalName; }
+  get legalName(){ return this.computed.legalName; }
   set legalName(value){
     if(!value) return;
-    this.model.legalName = value;
+    this.computed.legalName = value;
   }
 
-  get logo(){ return this.model.logo; }
+  get logo(){ return this.computed.logo; }
   set logo(value){
     if(!value) return;
-    this.model.logo = value;
+    this.computed.logo = value;
   }
 
-  get taxID(){ return this.model.taxID; }
+  get taxID(){ return this.computed.taxID; }
   set taxID(value){
     if(!value) return;
-    this.model.taxID = value;
+    this.computed.taxID = value;
   }
 
-  get telephone(){ return this.model.telephone; }
+  get telephone(){ return this.computed.telephone; }
   set telephone(value){
     if(!value) return;
-    this.model.telephone = value;
+    this.computed.telephone = value;
   }
 
-  get vatID(){ return this.model.vatID; }
+  get vatID(){ return this.computed.vatID; }
   set vatID(value){
     if(!value) return;
-    this.model.vatID = value;
+    this.computed.vatID = value;
   }
 
 }
