@@ -18,3 +18,9 @@ describe('organization.name', function() {
 		assert.equal(organization.name, key.name);
 	});
 });
+/*describe('Organization.keys', function() {*/
+	//it('should return the keys for Organization class', function() {
+    //console.log(Organization.keys(organization))
+		//assert.equal(Organization.keys(organization), '');
+	//});
+/*});*/
