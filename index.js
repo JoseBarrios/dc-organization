@@ -1,6 +1,10 @@
 const Thing = require('@josebarrios/thing');
+const TYPE = 'Organization'
+const EMPTY = '';
 
 class Organization extends Thing {
+
+  static get type(){ return TYPE; }
 
   constructor(model){
     model = model || {};
@@ -170,6 +174,12 @@ class Organization extends Thing {
   get vatID(){ return this.computed.vatID; }
   set vatID(value){ this.computed.vatID = value; }
 
+
+  //////////////////////
+  // COMPUTED PROPERTIES
+  //////////////////////
+  set type(value){ }
+  get type(){ return TYPE; }
 }
 
 module.exports = Organization;
