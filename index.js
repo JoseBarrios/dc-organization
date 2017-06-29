@@ -50,6 +50,9 @@ class Organization extends Thing {
     this.taxID = model.taxID;
     this.telephone = model.telephone;
     this.vatID = model.vatID;
+
+    //NON-STANDARD
+    this.type = TYPE;
   }
 
   get address(){ return this.computed.address; }
@@ -174,12 +177,6 @@ class Organization extends Thing {
   get vatID(){ return this.computed.vatID; }
   set vatID(value){ this.computed.vatID = value; }
 
-
-  //////////////////////
-  // COMPUTED PROPERTIES
-  //////////////////////
-  set type(value){ }
-  get type(){ return TYPE; }
 }
 
 module.exports = Organization;
