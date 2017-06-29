@@ -50,9 +50,6 @@ class Organization extends Thing {
     this.taxID = model.taxID;
     this.telephone = model.telephone;
     this.vatID = model.vatID;
-
-    //NON-STANDARD
-    this.type = TYPE;
   }
 
   get address(){ return this.computed.address; }
