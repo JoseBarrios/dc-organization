@@ -1,8 +1,8 @@
-const Thing = require('dc-thing');
+const ThingDataController = require('dc-thing');
 const TYPE = 'Organization'
 const EMPTY = '';
 
-class OrganizationDataController extends Thing {
+class OrganizationDataController extends ThingDataController {
 
 	static get type(){ return TYPE; }
 
